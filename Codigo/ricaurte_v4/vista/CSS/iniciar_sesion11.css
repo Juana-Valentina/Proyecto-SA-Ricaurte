@@ -1,0 +1,60 @@
+/* Reset de márgenes y rellenos y definición de la fuente */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-image: url('Portada.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+  height: 100vh; /* Establece la altura del cuerpo al 100% de la ventana gráfica */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 900px; /* Establece un ancho máximo para el container */
+}
+
+/* Estilo para el encabezado de la tarjeta */
+.card-header.bg-custom {
+  color: #ffffff;
+}
+
+/* Estilos para los títulos */
+h2, h3 {
+  text-align: center;
+  color: #FF007A;
+}
+
+/* Estilo para el formulario */
+.content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* Estilo para los botones personalizados */
+.btn-custom {
+  background-color: #FF007A;
+  border-color: #FF007A;
+  color: white;
+  width: auto;
+}
+
+/* Estilos para los enlaces negros */
+.black-link {
+  color: #FF007A;
+  text-decoration: none;
+}
+
+/* Estilos para los íconos */
+i.fas {
+  margin-right: 5px;
+}
