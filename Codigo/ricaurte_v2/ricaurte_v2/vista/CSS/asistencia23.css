@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    background-image: url("Portada3.jpg");
+    background-size: 100% 100%; /* Ajusta la imagen al 100% del ancho y alto del contenedor */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%; /* Ajusta el ancho del contenido */
+  }
+
+h2, h1 {
+    text-align: center;
+    color: #FF007A;
+    font-size: 70px;
+  }
+.asistencia {
+    background-color: green;
+    color: green;
+}
+#asistencia {
+    background-color: green;
+    color: green;
+    background: green;
+}
+#inasistencia {
+    background-color: red;
+    color: red;
+    background: red;
+}
+#justificado {
+    background-color: yellow;
+    color: yellow;
+    background: yellow;
+}
+#btnenviar {
+    background-color: #FF007A;
+    border-color: #FF007A;
+    color: white;
+    width: auto;
+    margin-top: 10px;
+}
+#btnmodificar {
+    background-color: #FF007A;
+    border-color: #FF007A;
+    color: white;
+    width: auto;
+    margin-top: 10px;
+}
+.caja {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    width: 500px;
+    height: 100px;
+    top: 0;
+    bottom: 200px;
+    right: 0px;
+    left: 1200px;
+    margin-top: 30px;
+    border-bottom-right-radius: 14px;
+}

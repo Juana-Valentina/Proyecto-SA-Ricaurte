@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-image: url('Portada.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Centra verticalmente en la ventana */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%; /* Ajusta el ancho del contenido */
+  }
+
+h2, h1 {
+    text-align: center;
+    color: #FF007A;
+    font-size: 70px;
+}
+h6{
+  text-align: center;
+  color: #FF007A;
+}
+
+.asistencia {
+    background-color: green;
+    color: green;
+}
+#asistencia {
+    background-color: green;
+    color: green;
+    background: green;
+}
+#inasistencia {
+    background-color: red;
+    color: red;
+    background: red;
+}
+#justificado {
+    background-color: yellow;
+    color: yellow;
+    background: yellow;
+}
+  
+
+  
