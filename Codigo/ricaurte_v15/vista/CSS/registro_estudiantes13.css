@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 40PX;
+  font-family: "Arial", Arial, Helvetica, sans-serif;
+  background-image: url('Portada.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 60px;
+  border-radius: 10px;
+  margin: 0 auto; /* Centra horizontalmente el container */
+  max-width: 900px; /* Establece un ancho máximo para el container */
+}
+
+h1 {
+  text-align: center;
+  color: #FF007A;
+}
+
+/* Estilos para el formulario de registro */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #000000;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #FF007A;
+  border-color: #FF007A;
+  color: white;
+  width: auto;
+}
+
+/* Estilos para el mensaje de registro exitoso */
+#registroExitoso {
+  display: none;
+}
+
+/* Estilos para la información de contacto (no se usa en este formulario) */
+.contact-info {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.contact-item {
+  margin-bottom: 10px;
+}
+
+.black-link {
+  color: #FF007A;
+  text-decoration: none;
+}
+
+.btn-custom {
+  background-color: #FF007A;
+  border-color: #FF007A;
+  color: white;
+  width: auto;
+}
