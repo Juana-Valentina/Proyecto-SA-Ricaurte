@@ -1,0 +1,87 @@
+/* Estilos globales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-image: url('Portada.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Centra verticalmente en la ventana */
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 900px; /* Establece un ancho máximo para el container */
+  text-align: center;
+
+  /*  */
+}
+
+/* Estilos para la selección de rol */
+h2 {
+  color: #FF007A;
+  margin-bottom: 20px;
+}
+
+form {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.btn-custom {
+  background-color: #FF007A;
+  border-color: #FF007A;
+  color: white;
+  width: auto;
+  margin-right: 2px; /* Espacio entre botones */
+}
+
+/* Estilos para la información de contacto */
+.contact-info {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.contact-item {
+  margin-bottom: 10px;
+}
+
+.black-link {
+  color: #FF007A;
+  text-decoration: none;
+}
+
+/* #container2 {
+  display: inline;
+  margin-top: top;
+  padding: 280px;
+  border-radius: 150px; 
+  max-width: 900px; /* Establece un ancho máximo para el container
+   */
+
+  /*  */
+
+
+/* .menu{
+  position: absolute;
+  margin-bottom: 900px;
+  width: 1950px;
+  text-align: right;
+
+
+} */ 

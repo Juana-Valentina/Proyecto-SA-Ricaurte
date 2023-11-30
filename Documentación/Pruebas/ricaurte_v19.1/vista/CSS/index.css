@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", Arial, Helvetica, sans-serif;
+  background-image: url('Portada.jpg');
+  background-size: cover; /* Ajusta la imagen de fondo al contenedor */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Estilos para el contenido principal */
+.content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 60px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Estilos para los encabezados */
+h2 {
+  text-align: center;
+  color: #FF007A;
+}
+
+h1 {
+  text-align: center;
+  color: #FF007A;
+}
+
+/* Estilos para botones */
+.btn-custom {
+  background-color: #FF007A;
+  border-color: #FF007A;
+  color: white;
+  width: auto;
+  margin-top: 10px;
+}
+
+/* Estilos para la información de contacto */
+.contact-info {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.contact-item {
+  margin-bottom: 10px;
+}
+
+/* Estilos para enlaces negros */
+.black-link {
+  color: black;
+  text-decoration: none;
+}
+
+/* Estilos específicos para un botón con ID btnGuardar (puedes usarlo en tu HTML si es necesario) */
+#btnGuardar {
+  background-color: #FF007A;
+  border-color: #FF007A;
+  color: white;
+  width: auto;
+  margin-top: 10px;
+}

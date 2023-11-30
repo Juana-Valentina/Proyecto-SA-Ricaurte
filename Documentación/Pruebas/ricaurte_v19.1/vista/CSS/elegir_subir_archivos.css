@@ -1,0 +1,111 @@
+body {
+  margin: 20px;
+  padding: 0;
+  font-family: "Arial", Arial, Helvetica, sans-serif;
+  background-image: url('Portada.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 20px;
+  margin: 80px; /* Centra horizontalmente el container */
+  max-width: 0.5px; /* Establece un ancho máximo para el container */
+}
+
+#container2 {
+  display: inline;
+  margin: 100px;
+  padding: 100px;
+  border-radius: 100px; 
+  max-width: 30px; /* Establece un ancho máximo para el container */
+
+
+
+  /*  */
+}
+.navbar-collapse{
+  justify-content: flex-end;
+  margin-left: 60px;
+
+}
+
+.menu{
+  position: absolute;
+  margin-bottom: 600px;
+  width: 100px;
+
+}
+.nav-link {
+color: white !important;
+
+}
+
+
+h2 {
+  padding: 60px;
+  text-align: center;
+  color: #FF007A;
+  margin-bottom: 20px;
+}
+
+.profile-title {
+  margin-top: 20px;
+  text-align: center;
+  color: #FF007A; /* Color del título */
+}
+
+.profile-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profile-details {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.profile-details h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #FF007A; 
+}
+
+.profile-details label {
+  font-weight: bold;
+}
+
+.profile-details button {
+  margin-top: 10px;
+  flex-direction: column;
+  position: absolute;
+  left:20px;
+  background-color: #FF007A; /* Color de los botones "Editar" y "Guardar Cambios" */
+  color: #fff; /* Color del texto de los botones */
+  border: none;
+  
+}
+
+.profile-details button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.btn-light{
+
+  width: auto;
+
+}
+
+.btn-custom {
+  background-color: #FF007A;
+  border-color: #FF007A;
+  color: white;
+  width: auto;
+}
+
