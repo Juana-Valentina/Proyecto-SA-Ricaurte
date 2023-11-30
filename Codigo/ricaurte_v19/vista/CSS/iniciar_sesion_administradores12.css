@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 50PX;
+  font-family: "Arial", Arial, Helvetica, sans-serif;
+  background-image: url('Portada.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+#container2 {
+  display: inline;
+  margin-top: top;
+  padding: 380px;
+  border-radius: 150px; 
+  max-width: 100px; /* Establece un ancho máximo para el container */
+
+
+
+  /*  */
+}
+.navbar-collapse{
+  justify-content: flex-end;
+  margin-left: 60px;
+
+}
+
+.menu{
+  position: absolute;
+  margin-bottom: 600px;
+  width: 1000px;
+
+}
+.nav-link {
+color: white !important;
+
+}
+
+
+h2, h3 {
+  padding: 20px;
+  text-align: center;
+  color: #FF007A;
+}
+
+h1 {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.btn-custom {
+  background-color: #FF007A;
+  border-color: #FF007A;
+  color: white;
+  width: auto;
+}
+
+/* Estilos para la información de contacto */
+.contact-info {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.contact-item {
+  margin-bottom: 10px;
+}
+
+.black-link {
+  color: #FF007A;
+  text-decoration: none;
+} 
+
+/* CSS/j Iniciar_sesion_administradores1.2.css */
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto; /* Centra horizontalmente el container */
+  max-width: 900px; /* Establece un ancho máximo para el container */
+}
